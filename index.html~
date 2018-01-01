@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Work Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mujahid Khan</h1>
+            <h2>Program Analysis Group (PAG)</h2>
+            <a href="cv/resume.pdf" class="btn-rounded-white">Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                    	I am a Computer Science Undergraduate in my Senior year at Lahore University of Management Sciences(LUMS), working under the supervision of Dr. Junaid Haroon Siddiqui.
+			I hope to become an aspiring researcher and my primary area of interest is <b>Program Analysis</b>. Apart from that, I take part in co-curricular activities specifically programming 
+			contests and side projects. I also have experience working in the field of <b>Human-Computer Interaction</b>, <b>Artificial Intelligence</b> and <b>Software Engineering</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+
+            <div data-date="January 2018 – May 2018">
+                <h3>LUMS</h3>
+                <h4>Teaching Assistant - Dr. Junaid H. Siddiqui</h4>
+                <p>
+		Selected as a teaching assistant for the course <b>Advanced Programming (CS 300)</b> for Spring 2018.
+                </p>
+            </div>
+
+            <div data-date="July 2017 – Present">
+                <h3>Educative Inc.</h3>
+                <h4>Technical Author</h4>
+                <p>
+                  Working as a technical Author of the course "Python and Javascript Challenges" which is due to be released soon. It is an interactive course for people who are new to programming and gradually scales the 
+		  difficulty level of problems offered. 
+                </p>
+            </div>
+            <div data-date="January 2017 – May 2017">
+                <h3>LUMS</h3>
+                <h4>Teaching Assistant - Dr. Yasir Mehmood</h4>
+                <p>
+		Worked as a teaching assistant for the course <b>Intro to Artificial Intelligence (CS 331)</b> in Spring 2017. Designed assignments, managed logistics and held various tutorials.
+                </p>
+            </div>
+
+            <div data-date="January 2017 – May 2017">
+                <h3>Program Analysis Group, LUMS</h3>
+                <h4>Research Intern</h4>
+                <p>
+		Got exposure to Model Checking paradigm of program analysis. Understood Java PathFinder (JPF) inside-out by examining its code and wrote sample Listeners and Choice-Generators. 
+		Reproduced results of a previous research paper.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Lahore University of Management Sciences (LUMS)</h3>
+            <span class="education-date">Sept 2014 - June 2018</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>
+               Doing my BS in Computer Science from Syed Babar School of Science and Engineering, LUMS. My senior year thesis is concentrated in the field of Program Analysis. 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+	    <h3>Government College University, Lahore</h3>
+            <span class="education-date">Sept 2012 - Sept 2014</span>
+            <h4>Fsc. Pre-engineering</h4>
+            <p>
+	    Completed my degree with an A+.
+	    </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Senior Year Project</h3>
+                        <p>
+                          Working under the mentorship of Dr. Siddiqui, I'm doing Program Analysis of embedded devices with the help of two other colleagues. We are targeting underlying Operating Systems 
+			  such as Contiki and performing <b>Static Analysis</b> on applicationt that run on it using <b>Low Level Virtual Machine (LLVM)</b>. This helps in reducing the power consumption 
+			  and optimization of memory of such devices. 
+                        </p>
+                       
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Symbolic Execution of Front-end Javascript</h3>
+                        <p>
+			Developing a solution to test dynamic websites in the absence of a working server. The goal is to perform <b>Symbolic Execution</b> on client-side javascript of such 
+			websites and locate possible bugs.
+                        </p>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/MyStent.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>MyStent</h3>
+                        <p>
+			Developing an android application called MyStent to reduce health risks associated with post-stent patients by providing guidelines and an emergency portal. It will also keep 
+			track of logs maintained by the user in order to provide data in an efficient and easy-to-comprehend way for both the patients and the doctors.
+                        </p>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sudo.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>PseudoBot</h3>
+                        <p>
+			Developed a chatbot and a personal assistant for Software Engineering semester project. It is capable of performing normal everyday conversations with reinforced learning and 
+			can also serve as a personal assistant for trivial daily tasks such as weather checking, sending an email and setting reminders.
+                        </p>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/rsz_1b.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>BattleAI</h3>
+                        <p>
+			Developed a multi-player AI of the game Battleship using probabilistic learning as my Artificial Intelligence (CS 331) semester project.
+		
+                        </p>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/rsz_1b.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>HANDS2</h3>
+                        <p>
+			Improvized and revamped the existing code of HANDS2 (HSP Base Assignment using NGS data through Diploid Similarity) and added support for BAM files (Binary version of a Sequence Alignment Map file) 
+			using HTSJDK (Java API for High Throughput Sequencing developed by Broad Institute).
+		
+                        </p>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Golang</li>
+            <li>Node.js</li>
+            <li>ReactJs</li>
+            <li>JavaScript</li>
+            <li>LLVM</li>
+            <li>JPF</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>Jalangi</li>
+            <li>Z3Solver</li>
+            <li>Android Studio</li>
+            <li>Haskell</li>
+            <li>Assembly</li>
+            <li>Unity3D</li>
+            <li>Bash</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2017 Mujahid Khan
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/assaaassin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/koolmujahid" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/assaaassin" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+Assassin2kPinoyMonkey" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
